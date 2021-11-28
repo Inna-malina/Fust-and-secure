@@ -1,0 +1,412 @@
+@media (max-width: 400px) {
+    body {
+        font-size: calc(12px + (16 - 12) * (100vw - 320px) / (400 - 320));
+    }
+
+    .center {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px auto;
+        /* background: rgb(253, 207, 181); */
+    }
+
+    .about-progect-page, .security-list, .slider-one, .advantage-page, .promotion-page, .sliderlist-page, .footer-page {
+        box-sizing: border-box;
+        max-width: 400px;
+        min-width: 320px;
+        margin: 0px auto;
+    }
+
+    .about-progect-content__right {
+        width: 100%;
+
+    }
+
+    .header {
+        box-sizing: border-box;
+        padding-top: 43px;
+        padding: 0px 8px;
+    }
+
+    .about-progect-content__line {
+        top: calc(86px + (159 - 86) * (100vw - 320px) / (400 - 320));
+        width: calc(152px + (187 - 152) * (100vw - 320px) / (400 - 320));
+
+    }
+
+    .header__logo {
+        width: 56px;
+        height: 56px;
+    }
+
+    .header__button {
+        width: 134px;
+        height: 56px;
+        font-size: 0.8em;
+        line-height: 23px;
+    }
+
+    .about-progect-page {
+        padding-top: 43px;
+    }
+
+    .about-progect-content, .security-list__page, .slider-page__tabcontainer, .advantage-page__content, .promotion-page__content, .footer-page__content {
+        padding-top: 60px;
+    }
+
+    .about-progect-content__left {
+        width: 100%;
+        text-align: left;
+        padding-top: calc(0px + (53 - 0) * (100vw - 320px) / (400 - 320));
+        padding-bottom: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .about-progect-content__right {
+        margin-top: 50px;
+    }
+
+    .about-progect__header {
+        width: 359px;
+        font-weight: 900;
+        font-size: 2.7em;
+        /* line-height: 56px; */
+        line-height: calc(45px + (56 - 45) * (100vw - 320px) / (400 - 320));
+    }
+
+    .about-progect__text {
+        width: 86%;
+    }
+
+    .text {
+        font-size: 0.8em;
+        line-height: 23px;
+    }
+
+    .header__button-text {
+        font-size: 0.8em;
+        line-height: 23px;
+    }
+
+    .amount-users__block {
+        display: block;
+        width: 145px;
+    }
+
+    .amount-users__number {
+        font-weight: 800;
+        font-size: 2.7em;
+        line-height: 25px;
+        margin: 30px 0px 19px 0px;
+    }
+
+    .amount-users__text {
+        font-size: 0.8em;
+        line-height: 23px;
+        margin: 0px;
+    }
+
+    .apple {
+        display: flex;
+        width: 208px;
+        align-items: center;
+        border: 2px solid #FAD17F;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 45px;
+
+    }
+
+    .apple__img {
+        display: block;
+        margin-right: 23px;
+    }
+
+    .apple .text {
+        margin: 0px;
+        line-height: 20px;
+        font-weight: 500;
+        font-size: 0.6em;
+    }
+
+    .apple .apple_text {
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    .about-progect-content__1920-phone, .about-progect-content__768-phone, .about-progect-content__right-torus {
+        display: none;
+    }
+
+    .about-progect-content__375-phone {
+        display: block;
+        width: 100%;
+    }
+
+    /* ----security------- */
+    .security-list__box {
+        width: 90%;
+        padding: 0px 8px;
+    }
+
+    .security-list__img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .security-list__header {
+        font-weight: bold;
+        font-size: 1.2em;
+        /* line-height: 30px; */
+        line-height: calc(20px + (30 - 20) * (100vw - 320px) / (400 - 320));
+        ;
+    }
+
+    .security-list__text {
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 23px;
+    }
+
+    /* -------slider-one__tabcontainer------ */
+    .slider-one {
+        overflow: inherit;
+    }
+
+    .slider-page__tabcontainer {
+        padding-top: 24px;
+        height: 780px;
+    }
+
+    .tabcontent {
+        display: block;
+        width: 100%;
+    }
+
+    .tabcontent-image {
+        bottom: 0;
+        top: 440px;
+        left: -125px;
+        width: 469px;
+    }
+
+    .tabcontent__empty {
+        display: none;
+    }
+
+    .tabcontent__description {
+        width: 100%;
+        padding: 0px 8px;
+    }
+
+    .tabcontent__header, .advantage-header, .promotion-page__header, .sliderlist-page__header, .footer-page__header, .sliderlist-page__header, .footer-page__header {
+        font-size: 1.7em;
+        line-height: 40px;
+        margin: 40px 0px 49px 0px;
+    }
+
+    .tabcontent__list {
+        width: 90%;
+        font-size: 0.8em;
+        line-height: 23px;
+        /* line-height: calc(45px + (23 - 45) * (100vw - 320px) / (400 - 320)); */
+        padding-left: 16px;
+    }
+
+
+    .slider-one .slick-next {
+        right: 70%;
+    }
+
+    .slider-one .slick-prev {
+        left: 0px;
+    }
+
+    .slider-one .slick-prev, .slider-one .slick-next {
+        width: 40px;
+        height: 40px;
+        bottom: 510px;
+    }
+
+    /* -------advantage------- */
+    .advantage-text {
+        width: 90%;
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 23px;
+    }
+
+    .advantage-cards {
+        counter-reset: div;
+        display: block;
+        padding: 0px 8px;
+    }
+
+    .advantage-card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .advantage-card__image {
+        width: 86px;
+        margin-right: 30px;
+    }
+
+    .advantage-card::before {
+        width: 29px;
+        height: 29px;
+        top: 0px;
+        left: -10px;
+    }
+
+    .advantage-card__box {
+        display: block;
+        text-align: left;
+    }
+
+    .advantage-cards__header {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .advantage-cards__text {
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 23px;
+        margin: 0px;
+    }
+
+    .advantage-page__content {
+        padding-bottom: 75px;
+    }
+
+    /* ---------promotion------------ */
+
+    .promotion-page {
+        padding-bottom: 0px;
+    }
+
+    .promotion-page__content {
+        padding-bottom: 70px;
+    }
+
+    .promotion-page__text {
+        font-size: 0.8em;
+        line-height: 23px;
+        width: 90%;
+    }
+
+    .promotion-page__image-box {
+        margin-top: 46px;
+        margin-bottom: 46px;
+    }
+
+    .promotion-page__image {
+        width: 100%;
+    }
+
+    .laptop {
+        width: 130%;
+        left: -97px;
+    }
+
+    .sphere {
+        display: none;
+    }
+
+    .cone4 {
+        width: 77px;
+        top: -15%;
+        right: 0;
+    }
+
+    .hend {
+        width: 52%;
+        bottom: 71px;
+        /* right: -86px; */
+        right: calc(-55px + (-86 + 55) * (100vw - 320px) / (400 - 320));
+        ;
+    }
+
+    .promotion-page__image768 {
+        display: none;
+        width: 100%;
+    }
+
+    .promotion-page__image375 {
+        display: block;
+        width: 100%;
+    }
+
+    .promotion-page__apple {
+        position: static;
+        width: 136px;
+        bottom: 62px;
+        padding: 8px 13px;
+    }
+
+    .promotion-page__apple .apple__img {
+        margin-right: 16px;
+    }
+
+    .promotion-page__apple .text {
+        line-height: 12px;
+    }
+
+    .promotion-page__apple .apple_text {
+        font-size: 0.6em;
+    }
+
+    /* -------sliderlist-------- */
+
+    .sliderlist-page__content {
+        overflow: inherit;
+    }
+
+    .sliderlist-page__header {
+        padding-bottom: 0px;
+    }
+
+    .sliderlist-page__slider {
+        margin-top: 0px;
+    }
+
+    .iphone {
+        width: 147px;
+        margin: 0px calc(5px + (25 - 5) * (100vw - 320px) / (400 - 320));
+
+    }
+
+    .sliderlist-page__slider .slick-prev {
+        left: 35%;
+    }
+
+    .sliderlist-page__slider .slick-next {
+        right: 35%;
+    }
+
+    /* ---------footer---------- */
+
+    .footer-page__text:nth-last-child() {}
+
+    .footer-page__content .footer-page__text:nth-last-child(1) {
+        width: 315px;
+        font-size: 0.6em;
+        line-height: 17px;
+        padding-top: 214px;
+    }
+
+    .footer-page__content {
+        padding-top: 90px;
+        width: 100%;
+        height: 515px;
+        background: url('../images/footer_375.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center bottom;
+    }
+}
