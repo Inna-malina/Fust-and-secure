@@ -91,6 +91,7 @@
     .security-list__box {
         width: 45%;
     }
+    
 
     .security-list__page {
         width: 100%;
@@ -377,6 +378,12 @@
 
     .sliderlist-page__slider .slick-next {
         right: 38%;
+    }
+}
+
+@media (max-width: 500px) {
+    .security-list__box {
+        width: 90%;
     }
 }
 
